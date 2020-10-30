@@ -100,6 +100,7 @@ hr {
     top: 0;
     right: 0;
     left: 0;
+    padding: 10px 0;
 
     transform: translate3d(0, 0, 0);
 }
@@ -1269,6 +1270,10 @@ hr {
         background-color: #e88683;
     }
 
+    .nav.active {
+        display: block;
+    }
+
     .nav__link {
         display: block;
         margin: 0;
@@ -1277,6 +1282,10 @@ hr {
 
     .nav-toggle {
         display: block;
+    }
+
+    .nav-toggle:focus {
+        outline: none;
     }
 
     .header {
