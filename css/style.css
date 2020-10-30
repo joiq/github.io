@@ -119,7 +119,9 @@ hr {
     font-size: 30px;
     font-weight: bold;
     color: #fff;
+    cursor: pointer;
 }
+
 
 /* Nav */
 .nav {
